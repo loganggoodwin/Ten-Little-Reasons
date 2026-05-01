@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ten Little Reasons</title>
+  <style>
+    :root {
+      --bg: #fff8ef;
+      --card: #ffffff;
+      --text: #352019;
+      --muted: #7a5145;
+      --accent: #a8505f;
+      --gold: #c79a3d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: radial-gradient(circle at top, #ffe7b8 0%, var(--bg) 38%, #f8e6dd 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .page { max-width: 1050px; margin: 0 auto; padding: 36px 18px 60px; }
+    .hero { text-align: center; padding: 24px 0 30px; }
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(2.5rem, 8vw, 5.8rem);
+      color: var(--accent);
+      line-height: 0.95;
+      letter-spacing: -2px;
+    }
+    .hero p { margin: 16px auto 0; max-width: 760px; font-size: 1.2rem; color: var(--muted); }
+    .cover {
+      display: block;
+      width: min(100%, 820px);
+      margin: 0 auto 32px;
+      border-radius: 28px;
+      box-shadow: 0 22px 60px rgba(72, 34, 20, 0.28);
+      border: 8px solid rgba(255, 255, 255, 0.72);
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.84);
+      border: 1px solid rgba(199, 154, 61, 0.35);
+      border-radius: 24px;
+      padding: 28px;
+      margin: 22px auto;
+      box-shadow: 0 12px 32px rgba(80, 42, 26, 0.12);
+    }
+    h2 { color: var(--accent); margin-top: 0; font-size: 2rem; }
+    pre {
+      white-space: pre-wrap;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.05rem;
+      background: #fffaf5;
+      padding: 22px;
+      border-radius: 18px;
+      border-left: 6px solid var(--gold);
+      overflow-x: auto;
+    }
+    .dedication { text-align: center; font-size: 1.15rem; }
+    .signature { font-size: 1.35rem; color: var(--accent); font-weight: bold; }
+    audio, video { width: 100%; }
+    video { border-radius: 18px; margin-top: 12px; background: #000; }
+    .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 14px; }
+    .links a {
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer { text-align: center; margin-top: 34px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <h1>Ten Little Reasons</h1>
+      <p>A Mother’s Day song, video, and cover-art project for Katie, Halie, Aubrey, and Amy — from Garth and Christine.</p>
+    </section>
+
+    <img class="cover" src="assets/ten-little-reasons-cover.png" alt="Ten Little Reasons Mother’s Day cover art" />
+
+    <section class="card dedication">
+      <h2>Dedication</h2>
+      <p>To <strong>Katie, Halie, Aubrey, and Amy</strong>:</p>
+      <p>Thank you for everything you do for our family and for the love you give to our ten grandchildren. You are appreciated more than words can say.</p>
+      <p class="signature">With love, Garth and Christine</p>
+    </section>
+
+    <section class="card">
+      <h2>Listen to the Song</h2>
+      <audio controls>
+        <source src="media/ten-little-reasons.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+      <div class="links"><a href="media/ten-little-reasons.mp3">Open MP3</a></div>
+    </section>
+
+    <section class="card">
+      <h2>Watch the Video</h2>
+      <video controls poster="assets/ten-little-reasons-cover.png">
+        <source src="media/ten-little-reasons.mp4" type="video/mp4" />
+        Your browser does not support the video element.
+      </video>
+      <div class="links"><a href="media/ten-little-reasons.mp4">Open MP4</a></div>
+    </section>
+
+    <section class="card">
+      <h2>About This Project</h2>
+      <p><strong>Ten Little Reasons</strong> is a heartfelt Mother’s Day tribute created by <strong>Garth and Christine</strong> for <strong>Katie, Halie, Aubrey, and Amy</strong>, the loving mothers of their ten grandchildren.</p>
+      <p>This project includes a personalized Mother’s Day song, Suno-style lyrics, an MP3 audio file, an MP4 video file, and custom cover art celebrating the love, patience, strength, and care these mothers give every day.</p>
+      <div class="links">
+        <a href="lyrics/ten-little-reasons-lyrics.txt">Open Lyrics</a>
+        <a href="PROJECT_DESCRIPTION.md">Open Description</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Suno Style Prompt</h2>
+      <pre>Emotional country pop Mother’s Day ballad, warm acoustic guitar, soft piano, heartfelt male and female duet vocals, gentle drums, family love theme, uplifting chorus, sincere and sentimental, modern country sound</pre>
+    </section>
+
+    <footer>
+      <p>Created with love by Garth and Christine.</p>
+    </footer>
+  </main>
+</body>
+</html>
