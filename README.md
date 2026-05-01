@@ -26,11 +26,6 @@ Thank you for everything you do for our family and for the love you give to our 
 With love,  
 **Garth and Christine**
 
-## Suno Style Prompt
-
-```text
-Emotional country pop Mother’s Day ballad, warm acoustic guitar, soft piano, heartfelt male and female duet vocals, gentle drums, family love theme, uplifting chorus, sincere and sentimental, modern country sound
-```
 
 ## Lyrics
 
@@ -125,20 +120,6 @@ With all our love
 Garth and Christine
 ```
 
-## Suggested Facebook Post
-
-```text
-Happy Mother’s Day to Katie, Halie, Aubrey, and Amy. 🌸
-
-Chris and I wanted to make something special for the mothers of our 10 beautiful grandchildren. Each of you plays such an important part in our family, and we are thankful for the love, patience, strength, and care you give every day.
-
-This song and picture are for you, from both of us, with all our love. You are appreciated more than words can say.
-
-Happy Mother’s Day. 💛
-
-With love,
-Garth and Chris
-```
 
 ## Files Included
 
